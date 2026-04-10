@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Accent / Brand -->
+    <color name="accent">#009588</color>
+
+    <!-- Buttons -->
+    <color name="button_primary">#1d5b8e</color>
+    <color name="button_export_results">#1d5b8e</color>
+
+    <!-- Recent files list -->
+    <color name="text_filename">#FF1C1B1F</color>
+    <color name="text_filepath">#FF757575</color>
+
+    <!-- Delete recent file icon -->
+    <color name="icon_delete">#FFB12D2D</color>
+
+    <!-- Table spinner -->
+    <color name="spinner_background">#D0D0D0</color>
+
+    <!-- Results table header -->
+    <color name="table_header_background">#FF616161</color>
+    <color name="table_header_text">#FFFFFFFF</color>
+
+    <!-- Links -->
+    <color name="link_color">#42A5F5</color>
+
+</resources>

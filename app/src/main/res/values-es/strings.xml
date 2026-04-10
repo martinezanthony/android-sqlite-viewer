@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">SQLite Viewer</string>
+
+    <!-- MainActivity -->
+    <string name="main_app_version">Versión: %1$s</string>
+    <string name="main_open_file">Abrir Archivo</string>
+    <string name="main_recently_opened">Abierto recientemente:</string>
+    <string name="main_item_recents_delete">Eliminar</string>
+    <string name="main_about">Acerca de</string>
+
+    <!-- DatabaseViewerActivity -->
+    <string name="viewer_no_file_loaded">Ningún archivo cargado</string>
+    <string name="viewer_db_loaded">DB Cargada: %1$s</string>
+    <string name="viewer_select_a_table">Selecciona una Tabla:</string>
+    <string name="viewer_search_filters">Filtros de Búsqueda (Campos dinámicos):</string>
+    <string name="viewer_search_for_matches">Buscar Coincidencias</string>
+    <string name="viewer_results">Resultados:</string>
+    <string name="viewer_results_count">Resultados: %1$d</string>
+    <string name="viewer_export_results">Exportar resultados</string>
+    <string name="viewer_field_label">Campo: %1$s</string>
+    <string name="viewer_field_hint">Escribe para filtrar por %1$s</string>
+    <string name="viewer_limit_label">Limitar resultados</string>
+    <string name="viewer_limit_hint">Máximo de resultados (ej: 3000)</string>
+
+    <!-- Diálogo de exportar -->
+    <string name="export_dialog_title">Selecciona formato</string>
+    <string name="export_option_csv">Exportar como CSV (.csv)</string>
+    <string name="export_option_txt">Exportar como Texto (.txt)</string>
+    <string name="export_option_json">Exportar como JSON (.json)</string>
+    <string name="dialog_cancel">Cancelar</string>
+
+    <!-- Toast messages -->
+    <string name="toast_recent_removed">Eliminado de recientes</string>
+    <string name="toast_file_access_error">No se pudo acceder al archivo. ¿Fue movido?</string>
+    <string name="toast_load_db_first">Carga una base de datos primero</string>
+    <string name="toast_select_table_first">Selecciona una tabla primero</string>
+    <string name="toast_enter_at_least_one_value">Ingresa al menos un dato a buscar</string>
+    <string name="toast_no_matches">No se encontraron coincidencias</string>
+    <string name="toast_no_tables_found">No se encontraron tablas</string>
+    <string name="toast_no_data_to_export">No hay datos para exportar</string>
+    <string name="toast_search_error">Error en búsqueda: %1$s</string>
+    <string name="toast_export_error">Error al exportar: %1$s</string>
+    <string name="toast_export_success_ext">Guardado en: Downloads/sqlite_viewer_exports (%1$s)</string>
+    <string name="toast_invalid_limit">Límite inválido. Debe ser un número positivo.</string>
+    <string name="toast_row_copied">Copiado al portapapeles</string>
+    <string name="toast_copy_error">Error al copiar: %1$s</string>
+    <string name="toast_invalid_db_file">Archivo inválido</string>
+    <string name="toast_not_sqlite_db">El archivo no es una base de datos SQLite</string>
+    <string name="recent_file_unknown">Archivo desconocido</string>
+
+    <!-- Info dialog -->
+    <string name="info_dialog_title">SQLite Viewer</string>
+    <string name="info_dialog_body">Una app Android de código abierto para explorar bases de datos SQLite directamente en tu dispositivo.\n\nLicenciada bajo la GNU General Public License v3.0 (GPL-3.0 o posterior).</string>
+    <string name="info_dialog_source_code">Ver código fuente en GitHub</string>
+    <string name="info_dialog_ok">OK</string>
+
+    <!--  Info dialog license phrase  -->
+    <string name="info_dialog_license_phrase">GNU General Public License v3.0 (GPL-3.0 o posterior)</string>
+</resources>
